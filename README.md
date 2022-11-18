@@ -1,4 +1,3 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=9364559&assignment_repo_type=AssignmentRepo)
 <!DOCTYPE html>
 <!-- 
     SITE 1101 Principles of Information Systems Fall 2022 
@@ -7,7 +6,7 @@
 -->
 <html>
     <head>
-        <title>Homework 3: How websites work?</title>       
+    <title>Homework 3: How websites work </title>      
     </head>
     <body>
         #Homework 3: How websites work?
