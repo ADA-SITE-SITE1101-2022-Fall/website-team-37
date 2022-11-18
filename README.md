@@ -20,9 +20,11 @@
         <br>
         <input type="radio" id="yes" name="choices" value="yes">
         <label for="yes">Yes</label>
+            <br>
         <input id="no" name="choices" value="no" type="radio">
         <label for="no">No</label>
         </section>
+        <br>
 <p text-align:center>2)Ibrahim Huseynov<strong>(Group Leader):</strong></p>
         <ul>
             <li text-align:center>Field of study: <em> Computer Science</em></li>
