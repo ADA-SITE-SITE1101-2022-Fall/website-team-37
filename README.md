@@ -1,4 +1,3 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=9364559&assignment_repo_type=AssignmentRepo)
 <!DOCTYPE html>
 <!-- 
     SITE 1101 Principles of Information Systems Fall 2022 
@@ -12,7 +11,7 @@
     <body>
         #Homework 3: How websites work?
 
-<h1 text-align:center>Team 37- Principles of Information Systems FALL 2022</h1>
+        <h1 text-align:center>Team 37- Principles of Information Systems FALL 2022</h1>
         <img text-align:center src="/Users/ibrahimhuseynov/github-classroom/ADA-SITE-SITE1101-2022-Fall/website-team-37/media/ada_logo_white.png"/>
         <h2 text-align:center> Brief information about our team</h2>
         <p text-align:center>1)Ibrahim Huseynov<strong>(Group Leader):</strong></p>
