@@ -6,10 +6,10 @@
 -->
 <html>
     <head>
-    <title> Homework 3: How websites work </title>      
+    Homework 3: How websites work?    
     </head>
     <body>
-        #Homework 3: How websites work?
+      
 
 <h1 text-align:center>Team 37- Principles of Information Systems FALL 2022</h1>
         <img text-align:center src="/Users/ibrahimhuseynov/github-classroom/ADA-SITE-SITE1101-2022-Fall/website-team-37/media/ada_logo_white.png"/>
