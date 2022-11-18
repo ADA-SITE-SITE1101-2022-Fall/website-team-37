@@ -12,7 +12,7 @@
       
 
 <h1 text-align:center>Team 37- Principles of Information Systems FALL 2022</h1>
-        <img text-align:center width="650/" lenght="400/" src="https://github.com/ADA-SITE-SITE1101-2022-Fall/website-team-37/blob/main/media/ada_logo_color.png"/>
+        <img text-align:center width="650/" lenght="400/" src="https://github.com/ADA-SITE-SITE1101-2022-Fall/website-team-37/raw/main/media/ada_logo_color.png"/>
         <h2 text-align:center> Brief information about our team</h2>
         <h4 text-align:center>1)Our new team name:<em>"From nothing to everything"</em></3>
         <p>  We are planning to create our site from starting initial knowledge till creating beatiful and catchy websites for our viewers, <b> Really,from nothing to everything!<b></p>
