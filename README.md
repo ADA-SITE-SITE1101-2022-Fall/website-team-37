@@ -12,7 +12,7 @@
       
 
 <h1 text-align:center>Team 37- Principles of Information Systems FALL 2022</h1>
-        <img text-align:center src="https://github.com/ADA-SITE-SITE1101-2022-Fall/website-team-37/blob/main/media/ada_logo_color.png"/>
+        <img text-align:center width="650/" lenght="400/" src="https://github.com/ADA-SITE-SITE1101-2022-Fall/website-team-37/blob/main/media/ada_logo_color.png"/>
         <h2 text-align:center> Brief information about our team</h2>
         <p text-align:center>1)Ibrahim Huseynov<strong>(Group Leader):</strong></p>
         <ul>
