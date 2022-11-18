@@ -6,7 +6,7 @@
 -->
 <html>
     <head>
-    <title>Homework 3: How websites work </title>      
+    <title> Homework 3: How websites work </title>      
     </head>
     <body>
         #Homework 3: How websites work?
