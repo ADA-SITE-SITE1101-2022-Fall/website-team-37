@@ -3,3 +3,10 @@
 #article-title{
     font-family: cursive;
 }
+h1 {
+    color: aquamarine;
+    font-size: 2em;
+    padding-top: 100px;
+    width: 100%;
+    font-family: 'Garamond';
+  }
