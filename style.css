@@ -1,5 +1,6 @@
 
 
+
 #article-title{
     font-family: cursive;
 }
@@ -10,4 +11,12 @@ h1 {
     width: 100%;
     font-family: 'Garamond';
     font-weight: bold;
+    text-align:center;
+  }
+  h2{
+    text-align:center;
+
+  }
+  p{
+    text-align:center;
   }
