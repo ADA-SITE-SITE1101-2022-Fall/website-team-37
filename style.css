@@ -30,7 +30,8 @@ h1 {
 
   }
   p{
-    color:black
+    color:black;
+    font-family: "Georgia";
 
   }
   li{
