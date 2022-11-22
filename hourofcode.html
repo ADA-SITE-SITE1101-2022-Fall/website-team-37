@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<!-- 
+  SITE 1101 Principles of Information Systems Fall 2022 
+  (c)2022 by Name Surname 
+  Submitted in partial fulfillment of the requirements of the course.
+  -->
+<html>
+  <head>
+    <title>Homework 3: How websites work? </title>
+    <link href='style.css' rel='stylesheet'>
+  </head>
+  <body>
+    <header>
+      <nav>
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="hourofcode.html">Hour Of Code</a>
+      </nav>
+  </header>
+
+  <section class="section">
+    <div class="slider">
+      <div class="slide">
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <input type="radio" name="radio-btn" id="radio5">
+          <input type="radio" name="radio-btn" id="radio6">
+  
+          <div class="photo first">
+            <img src="photos/6.jpeg" alt="Photos">
+          </div>
+          
+          <div class="photo">
+            <img src="photos/2.jpeg" alt="Photos">
+          </div>
+  
+          <div class="photo">
+            <img src="photos/3.jpeg" alt="Photos">
+          </div>
+          
+          <div class="photo">
+            <img src="photos/4.jpeg" alt="Photos">
+          </div>
+          
+          <div class="photo">
+            <img src="photos/5.jpeg" alt="Photos">
+          </div>
+          
+          <div class="photo">
+            <img src="photos/1.jpeg" alt="Photos">
+          </div>
+  
+          <div class="nav-auto">
+            <div class="a-b1"></div>
+            <div class="a-b2"></div>
+            <div class="a-b3"></div>
+            <div class="a-b4"></div>
+            <div class="a-b5"></div>
+            <div class="a-b6"></div>
+          </div>
+      </div>
+  
+      <div class="nav-m">
+        <label for="radio1" class="a-btn"></label>
+        <label for="radio2" class="a-btn"></label>
+        <label for="radio3" class="a-btn"></label>
+        <label for="radio4" class="a-btn"></label>
+        <label for="radio5" class="a-btn"></label>
+        <label for="radio6" class="a-btn"></label>
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript">
+    var counter=1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked=true;
+      counter++;
+      if(counter>6){
+        counter=1;
+      }
+    },5000);
+  </script>
+
+  <hr>
+   <div id="member-table">
+    <div id="ibrahim">
+      <h1>Ibrahim Huseynov <i>(Group Leader)</i></h1>
+      <ul>
+        <li>Field of study: <i>Computer Science</i></li>
+        <li>Expected graduation year: <i>2026</i></li>
+        <li>CRN: <i>10434</i></li>
+      </ul>
+    </div>
+    <div id="maryam">
+      <h1>Maryam Jafarli <i>(Participant)</i></h1>
+      <ul>
+        <li>Field of study: <i>Computer Science</i></li>
+        <li>Expected graduation year: <i>2026</i></li>
+        <li>CRN: <i>10435</i></li>
+      </ul>
+    </div>
+    <div id="yusif">
+      <h1>Yusif Yusifov <i>(Participant)</i></h1>
+      <ul>
+        <li>Field of study: <i>Computer Science</i></li>
+        <li>Expected graduation year: <i>2026</i></li>
+        <li>CRN: <i>10434</i></li>
+      </ul>
+    </div>
+    <div id="yashar">
+      <h1>Yashar Gurbanov <i>(Participant)</i></h1>
+      <ul>
+        <li>Field of study: <i>Computer Science</i></li>
+        <li>Expected graduation year: <i>2026</i></li>
+        <li>CRN: <i>10434</i></li>
+      </ul>
+    </div>
+  </div>
+    <hr>
+    <div id="table">
+      <table>
+        <thead>
+          <th>Team member</th>
+          <th>Contribution and report</th>
+          <th>Estimated percentage</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Yashar Gurbanov</td>
+            <td>Organized the meeting and
+              got agreement from school,
+              actively participated during the hour of code, took
+              photos and videos,
+              introduced ppt and helped to
+              organize playing Maze
+              puzzle, and finally wrote 200-
+              250 words for a report.
+            </td>
+            <td>25%</td>
+          </tr>
+          <tr>
+            <td>Maryam Jafarli</td>
+            <td>Actively participated during
+              an hour of code, took videos
+              and pictures, and presented
+              some of the ppt files. Finally,
+              wrote 300 words for a report.</td>
+            <td>22.5%</td>
+          </tr>
+          <tr>
+            <td>Yusif Yusifov</td>
+            <td>Wrote 250 words for a
+              report, actively participated
+              during an hour of code,
+              helped to solve technical
+              issues, introduced ppt files,
+              and helped to organize Maze
+              puzzle.</td>
+            <td>22.5%</td>
+          </tr>
+          <tr>
+            <td>Ibrahim Huseynov (Group Leader)</td>
+            <td>Generally try to maintain
+              stability in team, introduced
+              ppt files and helped to
+              organize Maze puzzle, wrote
+              250-270 words for report.</td>
+            <td>30%</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+  </body>
+</html>
