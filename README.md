@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+
+    <!DOCTYPE html>
 <!-- 
     SITE 1101 Principles of Information Systems Fall 2022 
     (c)2022 by Name Surname 
@@ -17,7 +18,9 @@
         <h2 > Brief information about our team</h2>
         <br>
         <h3 >1)Our new team name:<em>"From nothing to everything"</em></h3>
-        <p>  We are planning to create our site from starting initial knowledge till creating beatiful and catchy websites for our viewers, <b> Really,from nothing to everything!<b></p>
+        <article>
+        <p>  We are planning to create our site from starting initial knowledge till creating beatiful and catchy websites for our viewers. Our main to apply and improve skills in HTML,CSS and Javascript. We have passion toe explore,create and demonstrate.Moreover, we will be strong with your feedback! <b> Really,from nothing to everything!<b></p>
+        </article>
         <br>
         <br>
         <h3> 2)Our new team logo</h3>
@@ -46,5 +49,16 @@
             <li >Expected graduation year: <em> 2026</em></li>
             <li >CRN:<em> 10435</em></li>
         </ul>
+        <br>
+        <h2> Our Hour of Code Event</h2>
+        <center><h3 ><b>Our event with numbers</b></h3></center>
+        <ol>
+        <li>The time: 02.11.2022</li>
+        <li>The number of participant: 19(students) + 4(members of Team37)</li>
+        <li> Duration: 45-50 minutes</li>
+        </ol>
+        <center><h3 id="ctable"><b>Individual contribution table of Team 37</h3></center>
+        <article>
+        <p> This shows that we work as a team and had productive event due to <i>hardwork</i>,<i> dedication</i> and <i>responsibility.</i></p>
 </body>
 </html>
