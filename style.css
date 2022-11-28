@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
-
+::-webkit-scrollbar{
+  width:10px;
+}
+::-webkit-scrollbar-track{
+  background-color:#def3f6;
+}
+::-webkit-scrollbar-thumb{
+  background-image:linear-gradient(#76b6c4, #1da2d8);
+  border-radius: 5px;
+}
 
 
 html { 
@@ -10,11 +20,18 @@ html {
   animation-name: fadein;
   animation-duration: 5s;
   animation-delay: 5s;
+  font-family: 'Josefin Sans', sans-serif;
 
 }
 @keyframes fadein{
   from{ opacity: 0;}
   to{opacity:1;}
+}
+#header-logo{
+  display:inline-block;
+  margin-left:3%;
+  width:206px;
+  height:170px;
 }
 head{
   margin:0px;
@@ -37,11 +54,13 @@ nav{
   font-size: 30px;
 }
 .nav-link{
+  font-family: 'Josefin Sans', sans-serif;
   border-radius: 10px 20px;
   text-decoration:none;
   padding-left:5%;
   padding-right:5%;
   margin-right:2%;
+  padding-top: 5px;
   background-color: #064273;
   color:white;
 }
@@ -64,9 +83,25 @@ h3{
   color: #075a9e;
 }
 
+#aboutus-content{
+  background-image: linear-gradient(#76b6c4, #1da2d8);
+  padding: 1%;
+  font-family: 'Josefin Sans', sans-serif;
+}
+#aboutus-content-inner h2{
+  text-align:center;
+}
+#aboutus-content-inner{
+  background-color: #def3f6;
+  border-radius: 10px 20px;
+  padding: 1%;
+}
+
+
 #hoc-intro{
   background-image: linear-gradient(#76b6c4, #1da2d8);
   padding: 1%;
+  font-family: 'Josefin Sans', sans-serif;
 }
 #hoc-intro-inner h2{
   text-align:center;
@@ -78,7 +113,7 @@ h3{
 }
 
 .section{
-  background-image: linear-gradient(#1da2d8, #7fcdff);
+  background-image: linear-gradient(#1da2d8, #76b6c4);
   padding:2%;
   display:flex;
   justify-content:center;
@@ -135,15 +170,35 @@ h3{
   padding-right:1%;
   margin-top:2%;
   margin-bottom:2%;
-  margin-left:1%;
+  margin-left:1.4%;
   display:inline-block;
   background-color: #def3f6;
   border-radius: 10px 20px;
   text-align:center;
-}
-#member-table{
-  justify-content: center;
+  font-size:14px;
   align-items: center;
+}
+#ibrahim1, #maryam1, #yusif1, #yashar1{
+  padding:0.5%;
+  background-color: #def3f6;
+  border-radius: 10px 20px;
+  text-align:center;
+  font-size:14px;
+  align-items: center;
+}
+.hobby{
+  font-size:17px;
+  padding-left:1%;
+  padding-right:1%;
+}
+
+#member-table{
+  font-family: 'Josefin Sans', sans-serif;
+}
+#hobby-table{
+  font-family: 'Josefin Sans', sans-serif;
+  background-image: linear-gradient(#1da2d8, #76b6c4);
+  padding:3%;
 }
 
 table, th, td {
@@ -156,6 +211,7 @@ th, td{
   width:10%;
   background-color: #def3f6;
   text-align:center;
+  font-family: 'Josefin Sans', sans-serif;
 }
 #member-table{
   background-image: linear-gradient(#76b6c4, #1da2d8);
@@ -166,7 +222,7 @@ th, td{
   padding-bottom:2%;
 }
 #table td{
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .slider{
@@ -278,15 +334,15 @@ th, td{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: rgb(0, 0, 0);
+  background-color: #1da2d8;
   padding-left:100%;
   padding-top:0%;
-  height:160%;
+  height:250%;
 }
 
 #circle{
   position:absolute;
-  top:30%;
+  top:20%;
   left:50%;
   transform:translate(-50%,-50%);
   width:300px;
@@ -335,4 +391,19 @@ th, td{
   100%{
     transform:translate(-50%,-70%) rotate(360deg);
   }
+}
+.fb-logo{
+  width:35px;
+  height:35px;
+  border-radius: 25px;
+}
+#footer-inner{
+  border-radius: 10px 20px;
+  background-color: rgb(222, 243, 246,0.5);
+  padding:1%;
+}
+footer{
+  background-image:linear-gradient(to bottom,rgba(118,182,196,0.7) 20%, rgba(6,66,115,0.9)),
+  url('https://img.freepik.com/premium-vector/great-wave-japan-ocean-seamless-pattern-background-wallpaper_149225-74.jpg?w=2000');
+  padding:5px;
 }
